@@ -1322,7 +1322,7 @@ tarteaucitron.services.arcio = {
             return;
         }
 
-        tarteaucitron.addScript('https://arc.io/widget.min.js#'+tarteaucitron.user.arcId);
+        // tarteaucitron.addScript('https://arc.io/widget.min.js#'+tarteaucitron.user.arcId);
     }
 };
 
@@ -1853,7 +1853,7 @@ tarteaucitron.services.abtasty = {
         if (tarteaucitron.user.abtastyID === undefined) {
             return;
         }
-        tarteaucitron.addScript('//try.abtasty.com/' + tarteaucitron.user.abtastyID + '.js');
+        // tarteaucitron.addScript('//try.abtasty.com/' + tarteaucitron.user.abtastyID + '.js');
     }
 };
 

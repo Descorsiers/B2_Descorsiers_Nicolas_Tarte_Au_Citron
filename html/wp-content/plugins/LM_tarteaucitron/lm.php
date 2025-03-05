@@ -222,6 +222,14 @@ function addScript2(){
           
           "partnersList": true /* Afficher le détail du nombre de partenaires sur la bandeau */
         });
+
+        (tarteaucitron.job = tarteaucitron.job || []).push('twitterwidgetsapi');
+
+        tarteaucitron.user.abtastyID = 'id';
+        (tarteaucitron.job = tarteaucitron.job || []).push('abtasty');
+
+        tarteaucitron.user.arcId = 'arcId';
+        (tarteaucitron.job = tarteaucitron.job || []).push('arcio');
     </script><?php
 }
 
